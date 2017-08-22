@@ -14,7 +14,7 @@ namespace arrays
             int[] arr1 = new int[3];
             for (int i = 0; i < arr1.Length; i++)
             {
-                Console.WriteLine("hello");  
+                Console.WriteLine(arr1[i]);  
             }
             //Rank gives dimension
             Console.WriteLine(arr1.Rank);
