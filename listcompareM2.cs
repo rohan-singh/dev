@@ -38,6 +38,7 @@ namespace ClassDemo
 
                 listitem.Add(new ClassDemo.Item {ItemId = 400, Name = "mouse", Price =567});
 
+		//obj need to be created
                 ItemIdComparer comp = new ItemIdComparer();
                 listitem.Sort(comp);
                 //listitem.Sort();
