@@ -17,7 +17,7 @@ using CalcContract;
         //}
         public class CalcFactory
         {
-            public static ICalculator GetCalculator()
+            public static ICalculator GetCalculator()  // ICalculator : return type
             {
                 //using reflection = RTTI
                 //read config first
