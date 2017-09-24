@@ -17,6 +17,7 @@ namespace client
 
             try
             {
+                //creating a new instance of TcpClient class
                 TcpClient tcpclnt = new TcpClient();
                 Console.WriteLine("Connecting.....");
 
